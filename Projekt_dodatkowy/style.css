@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&family=Poppins:wght@200&display=swap');
+@counter-style program{
+    system: cyclic;
+    symbols: "</>";
+    suffix: " "; 
+
+}
+body{
+    color: white !important;
+    background-image: url("ketan-pandey-H9VHLtEd4hA-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: 'Poppins', sans-serif !important;
+}
+.nawigacja{
+    display: flex;
+    justify-content: center;
+    align-content: space-between;
+}
+.nav-link{
+    margin-top: 1%;
+    padding-left: 4% !important;
+    padding-right: 4% !important;
+    font-size: larger !important;
+}
+.nav-link:hover{
+    border: 1px solid white;
+}
+.baner{
+    margin-top: 1%;
+    width: 100%;
+    height: 200px;
+}
+.ja{
+    border-radius: 5%;
+    width: 225px;
+    height: 350px;
+}
+.sekcja-o-mnie{
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.wysrodkowanie{
+    margin-top: 3%;
+    display: flex;
+    justify-content: center;
+}
+.o-mnie{
+    display: flex;
+    text-align: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+.wysrodkowanie2{
+    margin-top: 3%;
+    display: flex;
+    justify-content: center;
+}
+.karuzela1{
+    width: 600px !important;
+}
+.karuzele{
+    display: flex;
+    margin-bottom: 3%;
+}
+#karuzele-zdjecia{
+    height: 400px;
+}
+.sekcja-katalog{
+    text-align: center;
+}
+.karuzela2{
+    width: 600px !important;
+}
+.karuzela3{
+    width: 600px !important;
+}
+.karuzela1, .karuzela2, .karuzela3{
+    margin-left: 1%;
+}
+.wysrodkowanie3{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.listy{
+    display: flex;
+    justify-content: space-between;
+    font-weight: bolder;
+}
+.cennik-1, .cennik-2, .cennik-3{
+    width: 380px;
+    height: 500px;
+}
+.podstawowy-lista, .plus-lista, .premium-lista{
+    padding-top: 3%;
+    top: 145%;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.521);
+    width: 380px;
+    height: 505px;
+}
+li{
+    margin-bottom: 5%;
+    list-style-type: program;
+    text-align: left !important;
+    width: 330px;
+}
+.podstawowy, .plus, .premium{
+    margin-right: 3%;
+}
+.accordion{
+    margin-left: 20%;
+    margin-right: 20%;
+    border-bottom: 1px solid black;
+    text-align: left !important;
+}
+.sekcja-faq{
+    margin-top: 3%;
+    text-align: center;
+}
+.sekcja-kontakt{
+    margin-top: 3%;
+    text-align: center;
+    font-size: xx-large;
+}
+.sekcja-stopka{
+    text-align: center;
+    background-color: rgba(85, 76, 76, 0.753);
+}
+.strona-com, .copyright{
+    display: inline;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+i{
+    border: 2px solid white;
+    border-radius: 50%;
+}
+i:hover{
+    background-color: white;
+    color: black;
+}
+.premium-tekst, .plus-tekst, .podstawowy-tekst{
+    color: white !important;
+    font-weight: lighter !important;
+    font-size: x-large;
+}
+li:hover{
+    color: grey;
+}
+
+@media (max-width: 800px) {
+    .o-mnie-tekst{
+        width: 300px;
+    }
+    .karuzele{
+        flex-direction: column;
+    }
+    .listy{
+        flex-direction: column;
+    }
+    .podstawowy-lista{
+        top: 165%;
+    }
+    .plus-lista{
+        top: 208%;
+    }
+    .premium-lista{
+        top: 251%;
+    }
+    
+}
